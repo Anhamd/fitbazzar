@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit Bazaar | Premium Apparel</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Fit Bazaar</div>
+            <div class="nav-links">
+                <button onclick="showPage('shop')">Shop</button>
+                <button onclick="showPage('login')">Login</button>
+                <button onclick="showPage('seller')">Sell</button>
+                <button onclick="showPage('cart')" class="cart-btn">
+                    Cart <span id="count">0</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="shop" class="page">
+            <section class="hero glass">
+                <h1>Elevate Your Style</h1>
+                <p>Exclusive boutique collection from the heart of Dhaka.</p>
+            </section>
+
+            <div class="section-header">
+                <h2>Featured Products</h2>
+            </div>
+            <div id="product-list" class="grid">
+                <!-- Products will be injected here -->
+            </div>
+        </div>
+
+        <div id="cart" class="page">
+            <div class="cart-container glass">
+                <h2>Your Shopping Cart</h2>
+                <ul id="items"></ul>
+                <div class="cart-summary">
+                    <p>Total: <strong>৳<span id="total">0</span></strong></p>
+                    <div class="payment-method">
+                        <label for="payment">Payment Method:</label>
+                        <select id="payment">
+                            <option>Cash on Delivery</option>
+                            <option>bKash</option>
+                        </select>
+                    </div>
+                    <button onclick="checkout()" class="primary-btn">Confirm Order</button>
+                    <button onclick="showPage('shop')" class="back-link"
+                        style="margin-top: 20px; width: 100%; justify-content: center;">Continue Shopping</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="product-details" class="page">
+            <div class="details-container glass">
+                <button onclick="showPage('shop')" class="back-link">&larr; Back to shop</button>
+                <div class="details-layout">
+                    <div class="product-visual">
+                        <div class="image-placeholder"></div>
+                    </div>
+                    <div class="product-info">
+                        <h1 id="details-name">Product Name</h1>
+                        <p id="details-price" class="price">৳0</p>
+                        <p id="details-description">Product description goes here.</p>
+                        <button id="details-add-btn" class="primary-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="login" class="page">
+            <div class="auth-card glass">
+                <h2 id="auth-title">User Login</h2>
+                <p id="auth-subtitle" style="margin-bottom: 20px; color: var(--text-muted);">Welcome back to Fit Bazaar.</p>
+                <input type="email" id="auth-email" placeholder="Email">
+                <input type="password" id="auth-password" placeholder="Password">
+                <button id="auth-btn" onclick="handleAuth()" class="primary-btn">Login</button>
+                <p style="margin-top: 20px; font-size: 0.9rem;">
+                    <a href="#" onclick="toggleAuthMode()" id="auth-toggle">Don't have an account? Register here</a>
+                </p>
+            </div>
+        </div>
+
+        <div id="seller" class="page">
+            <div class="auth-card glass">
+                <h2>Become a Seller</h2>
+                <p style="margin-bottom: 20px; color: var(--text-muted);">Start your boutique journey today.</p>
+                <input type="text" placeholder="Boutique Name">
+                <input type="text" placeholder="Trade License">
+                <textarea placeholder="Tell us about your products..." rows="4"></textarea>
+                <button onclick="applySeller()" class="primary-btn">Submit Application</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p><strong>Headquarters:</strong> Mirpur Pallabi, Dhaka 1216, Bangladesh</p>
+            <p>&copy; 2025 Fit Bazaar. Built for excellence.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

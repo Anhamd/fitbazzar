@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Premium Silk Panjabi",
+    "price": 3500,
+    "image": "assets/panjabi.png",
+    "description": "Handcrafted from the finest Rajshahi silk, this Panjabi features intricate embroidery on the collar and cuffs. Perfect for weddings and formal celebrations."
+  },
+  {
+    "id": 2,
+    "name": "Formal Slim-Fit Shirt",
+    "price": 1800,
+    "image": "assets/shirt.png",
+    "description": "A crisp, high-thread-count cotton shirt designed for a sharp professional look. Features a semi-spread collar and adjustable button cuffs."
+  },
+  {
+    "id": 3,
+    "name": "Casual Cotton T-Shirt",
+    "price": 650,
+    "image": "assets/tshirt.png",
+    "description": "Soft, breathable 100% organic cotton tee. Pre-shrunk for the perfect fit, ideal for everyday comfort in tropical climates."
+  },
+  {
+    "id": 4,
+    "name": "Traditional Cotton Kurta",
+    "price": 2200,
+    "image": "assets/kurta.png",
+    "description": "Elegance meets comfort with this hand-loomed cotton Kurta. Authentic weave patterns that celebrate Bengali heritage."
+  },
+  {
+    "id": 5,
+    "name": "Designer Waistcoat",
+    "price": 2800,
+    "image": "assets/waistcoat.png",
+    "description": "Add a layer of sophistication to your Panjabi. This tailored waistcoat features a premium linen-blend fabric and metallic buttons."
+  },
+  {
+    "id": 6,
+    "name": "Urban Street Hoodie",
+    "price": 2400,
+    "image": "assets/Gemini_Generated_Image_757u14757u14757u.png",
+    "description": "Heavyweight fleece hoodie with a modern oversized fit. Featuring minimalist graphics for the contemporary urban explorer."
+  },
+  {
+    "id": 7,
+    "name": "Classic Polo Shirt",
+    "price": 950,
+    "image": "assets/Gemini_Generated_Image_nlk2sfnlk2sfnlk2.png",
+    "description": "Traditional piqué knit polo with a reinforced collar. A versatile staple that transitions effortlessly from the office to the weekend."
+  },
+  {
+    "id": 8,
+    "name": "Executive Kabli Set",
+    "price": 4200,
+    "image": "assets/Gemini_Generated_Image_j7yo74j7yo74j7yo.png",
+    "description": "The pinnacle of luxury. This two-piece Kabli set is made from premium tropical suiting fabric, offering unmatched structure and style."
+  },
+  {
+    "id": 9,
+    "name": "Linen Summer Shirt",
+    "price": 1600,
+    "image": "assets/Gemini_Generated_Image_5tkvtk5tkvtk5tkv.png",
+    "description": "Keep cool with our lightweight Belgian linen shirt. Naturally breathable and features a relaxed camp collar for summer vibes."
+  },
+  {
+    "id": 10,
+    "name": "Denim Utility Jacket",
+    "price": 3200,
+    "image": "assets/Gemini_Generated_Image_76acky76acky76ac.png",
+    "description": "Rugged 14oz raw denim jacket with multiple utility pockets. Built to last and age beautifully with time."
+  },
+  {
+    "id": 11,
+    "name": "V-Neck Comfort Tee",
+    "price": 550,
+    "image": "assets/Gemini_Generated_Image_hfi2v5hfi2v5hfi2.png",
+    "description": "Minimalist V-neck made from a soft jersey blend. Great for layering or wearing on its own during relaxed evenings."
+  },
+  {
+    "id": 12,
+    "name": "Mandarin Collar Shirt",
+    "price": 1900,
+    "image": "assets/Gemini_Generated_Image_k3aeg5k3aeg5k3ae.png",
+    "description": "A modern twist on a classic. This slim-fit shirt with a band collar offers a clean, contemporary silhouette for smart-casual events."
+  }
+]
